@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+
+  background-color: rgb(230, 215, 250);
+}
+
+h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: rgb(100, 26, 160);
+}
+
+form {
+  margin: 40px auto;
+}
+
+label {
+  text-transform: lowercase;
+  margin-right: 15px;
+}
+
+label, #nomeInput {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#nomeInput {
+  border: 1px solid rgb(100, 26, 160);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+h2, ul {
+  margin-left: 15vw;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-of-type {
+  margin-bottom: 0;
+}
+
+.mybutton {
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: rgb(100, 26, 160);
+  transition: color .2s, background-color .2s;
+}
+
+.mybutton:hover {
+  background-color: rgb(148, 0, 0);
+  color: #fff;
+}
